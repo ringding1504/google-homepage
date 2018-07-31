@@ -1,0 +1,136 @@
+.top-nav {
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    height: 24px;
+    font-size: 13px;
+	font-family: "aerial", sans-serif;
+	float: right;
+}
+
+.container {
+    text-align:center;
+    padding-top:200px;
+}
+
+#icon {
+	max-height: 70%;
+	max-width: 100%;
+	vertical-align: middle;
+	opacity: 0.55;
+}
+
+#logo {
+    height:92px;
+    width:272;
+}
+
+
+
+a {
+	padding-left:13px;
+	text-decoration:none;
+	color:rgba(0, 0, 0, 0.54);;
+    margin:5px;
+}
+
+#Sing {
+	background-color: rgb(66, 133, 244);
+    border-radius: 2px;
+    font-family: aerial, sans-serif;
+    font-size: 13px;
+    font-weight:700;
+    color: rgb(255, 255, 255);
+    border: none;
+    line-height:28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    vertical-align: middle;
+	margin-left: 10px;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+input[type=text] {
+	font:16px arial,sans-serif;
+	padding-left:15px;
+	border-radius: 2px;
+	border:1px solid #b4bec1;
+	box-shadow: 0 0 1px grey;
+	width:469px;
+	height:44px;
+}
+
+input[type=text]:hover{
+	box-shadow:0 0 3px grey;
+}
+
+input[type=text]:focus{
+	box-shadow:0 0 3px grey;
+}
+
+input[type=submit]{
+	padding-left:16px;
+	padding-right:16px;
+	border-radius:2px;
+	color:#757575;
+	background-color:#f2f2f2;
+	font-size:13px;
+	font-family:arial,sans-serif;
+	font-weight:bold;
+	height:36px;
+	border:none;
+	margin-top:40px;
+	margin-left:10px;
+}
+
+input[type=submit]:hover{
+	color:black;
+	border:1px solid #dbdbdb;
+}
+
+p {
+	display:inline-block;
+	font-family:arial,sans-serif;
+	font-size:13px;
+	line-height:28px;
+	margin-top:20px;
+}
+
+.bot-nav {
+	position:fixed;
+    left: 0;
+    bottom: 0;
+	width: 100%;
+}
+
+.navl {
+	position: absolute;
+    padding-left: 0px;
+	bottom: 0px;
+}
+
+.navr {
+	position:relative;
+    float: right;
+    right:25px;
+	bottom: 10px;
+}
+
+.navr a, .navl a{
+	text-decoration: none;
+	font-family: aerial, sans-serif;
+	font-size: 13px;
+	color: rgb(102, 102, 102);
+	line-height: 40px;
+	padding-left: 27px;
+ }
+
+ .state {
+    padding-left: 32px;
+    text-decoration: none;
+    font-family: aerial, sans-serif;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
